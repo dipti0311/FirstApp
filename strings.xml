@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Amul India</string>
+    <string name="bus_name">Madhuri Foods</string>
+    <string name="bus_contact">diptikhiste@gmail.com
+    </string>
+    <string name="address">Mumbai</string>
+    <string name="bus_desc">Distributor of Amul Food Products</string>
+    <string name="working_hours">10.00 a.m - 10.00 p.m</string>
+</resources>

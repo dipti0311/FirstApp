@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/amul"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/bus_name"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/txtDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="@string/bus_desc"
+                android:textStyle="bold"
+                android:textColor="#ff0000"
+                android:textSize="16sp"
+                android:layout_below="@+id/txtName"
+                android:layout_alignLeft="@+id/txtName"
+                android:layout_alignStart="@+id/txtName" />
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtDesc"
+                android:layout_alignStart="@+id/txtDesc"
+                android:layout_below="@+id/txtDesc"
+                android:layout_marginTop="27dp"
+                android:text="@string/address"
+                android:textStyle="bold"
+                android:textColor="#ff0000"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width= "wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="@string/bus_contact"
+                android:textStyle="bold"
+                android:textColor="#ff0000"
+                android:textSize="16sp"
+                android:layout_below="@+id/txtAddress"
+                android:layout_alignLeft="@+id/txtAddress"
+                android:layout_alignStart="@+id/txtAddress" />
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtEmail"
+        android:layout_alignStart="@+id/txtEmail"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="27dp"
+        android:text="@string/working_hours"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:textSize="16sp"
+        />
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
